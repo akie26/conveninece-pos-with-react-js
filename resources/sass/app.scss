@@ -1,0 +1,89 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+.first-row{
+    font-family: montserrat,Bahnschrift;
+    h5{
+        margin: 5px;
+    }
+}
+
+.user_cart{
+    font-family: montserrat,Bahnschrift;
+    .t-sec{
+    font-size:20px;
+        .t-price{
+            margin-right:10px;
+        }
+    }
+    
+    .card{
+        min-height:300px;
+        background:transparent;
+        border:none;
+        thead{
+            color:#FDFEFE;
+        }
+        .qty{
+            width: 30px;
+        }
+        .btn-sm{
+            margin-bottom: 0px;
+            margin-left: 10px;
+        }
+        input{
+            margin-top:-5px;
+        }
+    }
+}
+
+.itemWrap {
+    font-family: montserrat,Bahnschrift;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    .item{
+        img{
+            margin-top: 10px;
+            width:100px;
+            height:100px;
+        }
+        text-align: center;
+        padding: auto;
+        width:150px;
+        height:160px;
+        border:1px solid #fDFEFE;
+        transition: 200ms ease-in-out;
+        .price{
+            margin-top: -15px;
+        }
+    }
+    .item:hover{
+        border-color:#EAEDED;
+        transform: scale(1.1);
+    }
+}
+
+.damnIt {
+    width: 300px;
+    height:170px;
+    border:1px solid green;
+    .damnItMan {
+        padding: 10px;
+        font-size: 30px;
+        color: rgb(47, 163, 47);
+        border: 1px solid #E5E8E8;
+        margin-top: 20px;
+    }
+}
